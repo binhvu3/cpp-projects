@@ -19,14 +19,20 @@ class TicTac{
     std::cout << "_______" << std::endl;
   }
 
-  bool checkWinner(const std::vector<std::vector<char>> &board, char player, int &moves){
-    if (moves == 9){
+  bool checkWinner(const std::vector<std::vector<char>> &board, char player){
+    for (int i = 0; i<ROWS; i++){
+      if ((board[i][0] == player && board[i][1] == player && board[i][2] == player) ||
+          (board[0][i] == player && board[1][i] == player && board[2][i] == player){
+        return true;
+      }
+    }
+
+    if ((board[0][0] == player && board[1][1] == player && board[2][2] == player) ||
+        (board[0][2] == player && board[1][1] == player && board[2][0] == player){
       return true;
     }
-    else{
-      return false;
 
-    }
+    return false;
   }
 
   void markBoard(const std::vector<std::vector<char>> &board, char player){
