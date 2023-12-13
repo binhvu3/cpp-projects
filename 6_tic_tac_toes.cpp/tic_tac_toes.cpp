@@ -10,13 +10,13 @@ class TicTac{
   
   void printBoard(const std::vector<std::vector<char>> &board){
     for (int i=0; i<ROWS; i++){
-      std::cout << "_______________" << std::endl;
+      std::cout << "_______" << std::endl;
       for (int j=0; j<COLS; j++){
-        std::cout << " | " << board[i][j];
+        std::cout << "|" << board[i][j];
       }
-      std::cout << " |" << std::endl;
+      std::cout << "|" << std::endl;
     }
-    std::cout << "_______________" << std::endl;
+    std::cout << "_______" << std::endl;
   }
 
   bool checkWinner(const std::vector<std::vector<char>> &board, char player, int &moves){
