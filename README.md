@@ -4,8 +4,8 @@ Main repo for tracking progress learning c++
 ## Code Structure
     .
     ├── 1_calculator                 
-    │   ├── calculator.exe       # Excecutable file compiled using g++
-    │   └── calculator.cpp       # c++ program
+    │   ├── ####.exe       # Excecutable file compiled using g++
+    │   └── ####.cpp       # c++ program
     │
     ├── 2_guess_number
     │   
@@ -16,6 +16,8 @@ Main repo for tracking progress learning c++
     ├── 5_bank_account          
     │	
     ├── 6_tic_tac_toes          
+    │	
+    ├── 7_file_encryption          
     │	
     └── ...
 These projects are part of this [Guideline.](https://hackr.io/blog/cpp-projects)
