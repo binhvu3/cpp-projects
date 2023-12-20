@@ -34,7 +34,7 @@ int main(){
   int choice, key;
 
   std::cout << "1. Encrypt File\n";
-  std::cout << "2. Decrypt FIle\n";
+  std::cout << "2. Decrypt File\n";
   std::cout << "Enter your choice: ";
   std::cin >> choice;
 
