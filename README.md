@@ -1,5 +1,5 @@
 # Learning c++ 
-Main repo for tracking progress learning c++
+Main repo for tracking progress learning c++. Test git push.
 
 ## Code Structure
     .
